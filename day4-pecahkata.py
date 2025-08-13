@@ -117,11 +117,11 @@ def run_game():
             btn.draw(screen)
 
         if show_next_btn:
-            next_btn = pygame.Rect(WIDTH//2 - 100, 370, 120, 50)
-            arti_btn = pygame.Rect(WIDTH//2 + 20, 370, 120, 50)
+            next_btn = pygame.Rect(WIDTH//2 - 150, 370, 120, 50)
+            arti_btn = pygame.Rect(WIDTH//2 + 30, 370, 120, 50)
             pygame.draw.rect(screen, BLUE, next_btn)
             pygame.draw.rect(screen, BLUE, arti_btn)
-            draw_text("Next", WIDTH//2 - 85, 375, WHITE)
+            draw_text("Next", WIDTH//2 - 135, 375, WHITE)
             draw_text("Arti", WIDTH//2 + 45, 375, WHITE)
 
         pygame.display.flip()
